@@ -133,7 +133,7 @@ button{
   vertical-align: middle;
 }
 
-.menu__checkbox[type="checkbox"] {
+.menu__checkbox {
   margin: 0 10px;
 }
 

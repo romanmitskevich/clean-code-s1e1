@@ -21,7 +21,7 @@ var createNewTaskElement = function(taskString){
     listItem.className = "complete-task";
 
     //input (checkbox)
-    var checkBox = document.createElement("input");//checkbx
+    var checkBox = document.createElement("input");//checkbox
     //label
     var label = document.createElement("label");//label
     //input (text)
@@ -38,6 +38,7 @@ var createNewTaskElement = function(taskString){
 
     //Each elements, needs appending
     checkBox.type = "checkbox";
+    checkBox.className = "menu__checkbox";
     editInput.type = "text";
     editInput.className = "menu__task";
 
@@ -45,6 +46,7 @@ var createNewTaskElement = function(taskString){
     editButton.className = "menu__edit";
 
     deleteButton.className = "menu__delete";
+    deleteButtonImg.className = "menu__delete-img";
     deleteButtonImg.src = "./assets/remove.svg";
     deleteButton.appendChild(deleteButtonImg);
 
