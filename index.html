@@ -7,12 +7,12 @@
 </head>
 <body class="body">
   <header class="header">
-    <img src="./assets/eisenhower-matrix.jpg" alt="Eisenhower matrix">
+    <img src="./assets/eisenhower-matrix.jpg" alt="Eisenhower matrix" class="header__img">
     <a class="header__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main">
     <section id="section-to-add-element" class="main__add">
-      <label for="new-task">Add Item</label>
+      <label for="new-task" class="main__add-task">Add Item</label>
       <div class="menu">
         <input id="new-task" class="menu__task" type="text">
         <button class="menu__button">Add</button>
@@ -25,24 +25,24 @@
         <label class="menu__task">Pay Bills</label>
         <input type="text" class="menu__task">
         <button class="menu__edit">Edit</button>
-        <button class="menu__delete"><img src="./assets/remove.svg" alt="Remove button"></button>
+        <button class="menu__delete"><img src="./assets/remove.svg" alt="Remove button" class="menu__delete-img"></button>
       </li>
       <li class="complete-task incomplete-task__edit">
-        <input type="checkbox">
+        <input type="checkbox" class="menu__checkbox">
         <label class="menu__task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="menu__task">
         <button class="menu__edit">Save</button>
-        <button class="menu__delete"><img src="./assets/remove.svg" alt="Remove button"></button>
+        <button class="menu__delete"><img src="./assets/remove.svg" alt="Remove button" class="menu__delete-img"></button>
       </li>
     </ul>
     <h3 class="main__heading">Completed</h3>
     <ul id="completed-tasks" class="main__complete">
       <li class="completed-tasks__task">
-        <input type="checkbox" checked>
+        <input type="checkbox" class="menu__checkbox" checked>
         <label class="menu__task">See the Doctor</label>
         <input type="text" class="menu__task">
         <button class="menu__edit">Edit</button>
-        <button class="menu__delete"><img src="./assets/remove.svg" alt="Remove button"></button>
+        <button class="menu__delete"><img src="./assets/remove.svg" alt="Remove button" class="menu__delete-img"></button>
       </li>
     </ul>
   </main>
